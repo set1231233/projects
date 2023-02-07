@@ -1,0 +1,72 @@
+Body{
+Background-Color: #F5F1E9;
+}
+#Calendar{
+Margin-Left: Auto;
+Margin-Right: Auto;
+Width: 320px;
+Font-Family: 'Lato', Sans-Serif;
+}
+#Calendar_weekdays Div{
+Display:inline-Block;
+Vertical-Align:top;
+}
+#Calendar_content, #Calendar_weekdays, #Calendar_header{
+Position: Relative;
+Width: 320px;
+Overflow: Hidden;
+Float: Left;
+Z-Index: 10;
+}
+#Calendar_weekdays Div, #Calendar_content Div{
+Width:40px;
+Height: 40px;
+Overflow: Hidden;
+Text-Align: Center;
+Background-Color: #FFFFFF;
+Color: #787878;
+}
+#Calendar_content{
+-Webkit-Border-Radius: 0px 0px 12px 12px;
+-Moz-Border-Radius: 0px 0px 12px 12px;
+Border-Radius: 0px 0px 12px 12px;
+}
+#Calendar_content Div{
+Float: Left;
+}
+#Calendar_content Div:hover{
+Background-Color: #F8F8F8;
+}
+#Calendar_content Div.Blank{
+Background-Color: #E8E8E8;
+}
+#Calendar_header, #Calendar_content Div.Today{
+Zoom: 1;
+Filter: Alpha(Opacity=70);
+Opacity: 0.7;
+}
+#Calendar_content Div.Today{
+Color: #FFFFFF;
+}
+#Calendar_header{
+Width: 100%;
+Height: 37px;
+Text-Align: Center;
+Background-Color: #FF6860;
+Padding: 18px 0;
+-Webkit-Border-Radius: 12px 12px 0px 0px;
+-Moz-Border-Radius: 12px 12px 0px 0px;
+Border-Radius: 12px 12px 0px 0px;
+}
+#Calendar_header H1{
+Font-Size: 1.5em;
+Color: #FFFFFF;
+Float:left;
+Width:70%;
+}
+I[Class^=Icon-Chevron]{
+Color: #FFFFFF;
+Float: Left;
+Width:15%;
+Border-Radius: 50%;
+}
